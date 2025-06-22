@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    "react-native-vision-camera"
+  ],
+  "android": {
+    "permissions": [
+      "android.permission.CAMERA"
+    ],
+    "package": "com.hecansoft.exporuteframetoimage"
+  },
+  "ios": {
+    "infoPlist": {
+      "NSCameraUsageDescription": "Allow $(PRODUCT_NAME) to access your camera"
+    },
+    "bundleIdentifier": "com.hecansoft.exporuteframetoimage"
+  }
+}

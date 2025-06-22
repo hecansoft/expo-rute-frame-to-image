@@ -1,0 +1,28 @@
+{
+  "name": "expo-rute-frame-to-image-example",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "dependencies": {
+    "expo": "~53.0.7",
+    "react": "19.0.0",
+    "react-native": "0.79.2",
+    "react-native-vision-camera": "^4.6.4",
+    "react-native-reanimated": "^3.18.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~19.0.10",
+    "typescript": "~5.8.3"
+  },
+  "private": true,
+  "expo": {
+    "autolinking": {
+      "nativeModulesDir": ".."
+    }
+  }
+}

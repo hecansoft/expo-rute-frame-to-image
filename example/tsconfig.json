@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-rute-frame-to-image": ["../src/index"],
+      "expo-rute-frame-to-image/*": ["../src/*"]
+    }
+  }
+}

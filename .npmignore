@@ -1,0 +1,10 @@
+# Ignorar código fuente TS, pero no build (si es tu caso)
+src/
+example/
+node_modules/
+*.log
+.gitignore
+.eslintrc.js
+jest.config.js
+*.test.ts
+*.spec.ts
