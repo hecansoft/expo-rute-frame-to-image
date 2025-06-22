@@ -1,2 +1,2 @@
-export { default } from './ExpoRuteFrameToImage';
-export * from  './ExpoRuteFrameToImage.types';
+export { default } from './ExpoFrameToImageModule';
+export * from  './ExpoFrameToImageModule.types';

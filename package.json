@@ -6,7 +6,6 @@
   "types": "build/index.d.ts",
   "scripts": {
     "build": "expo-module build",
-    "build:nowatch": "expo-module build --no-watch",
     "clean": "expo-module clean",
     "lint": "expo-module lint",
     "test": "expo-module test",
@@ -50,7 +49,7 @@
     "react-native-vision-camera": "^4.6.4"
   },
   "expo-module": {
-    "androidPackage": "com.hecansoft.exporuteframetoimage",
-    "iosModuleName": "ExpoRuteFrameToImage"
+    "androidPackage": "com.hecansoft.tools",
+    "iosModuleName": "ExpoFrameToImageModule"
   }
 }

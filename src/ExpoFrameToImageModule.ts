@@ -1,9 +1,9 @@
 import { NativeModule, requireNativeModule } from 'expo';
 
-import { ExpoRuteFrameToImageProps } from './ExpoRuteFrameToImage.types';
+import { ExpoFrameToImageModuleProps } from './ExpoFrameToImageModule.types';
 import { Frame } from 'react-native-vision-camera';
 
-declare class ExpoRuteFrameToImage extends NativeModule<ExpoRuteFrameToImageProps> {
+declare class ExpoRuteFrameToImage extends NativeModule<ExpoFrameToImageModuleProps> {
   convertFrameToBase64(frame: Frame): Promise<string>;
 }
 

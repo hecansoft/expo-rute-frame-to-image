@@ -6,12 +6,12 @@
     "permissions": [
       "android.permission.CAMERA"
     ],
-    "package": "com.hecansoft.exporuteframetoimage"
+    "package": "com.hecansoft.tools"
   },
   "ios": {
     "infoPlist": {
       "NSCameraUsageDescription": "Allow $(PRODUCT_NAME) to access your camera"
     },
-    "bundleIdentifier": "com.hecansoft.exporuteframetoimage"
+    "bundleIdentifier": "com.hecansoft.tools"
   }
 }
