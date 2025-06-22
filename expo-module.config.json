@@ -1,14 +1,10 @@
 {
-  "name": "ExpoFrameToImageModule",
+  "name": "expo-rute-frame-to-image",
   "android": {
-    "modulesClassNames": ["com.hecansoft.tools.ExpoFrameToImageModule"]
+    "package": "com.hecansoft.tools"
   },
   "ios": {
-    "modules": [
-      {
-        "name": "ExpoFrameToImageModule",
-        "className": "ExpoFrameToImageModule"
-      }
-    ]
-  }
+    "modulesClassNames": ["ExpoFrameToImageModule"]
+  },
+  "plugins": ["./plugin"]
 }

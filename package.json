@@ -31,16 +31,14 @@
   "license": "MIT",
   "homepage": "https://github.com/hecansoft/expo-rute-frame-to-image.git#readme",
   "dependencies": {
-    "expo": "~53.0.7",
-    "react": "19.0.0",
-    "react-native": "0.79.2",
     "react-native-vision-camera": "^4.6.4"
   },
   "devDependencies": {
-    "@types/react": "~19.0.10",
     "expo": "~53.0.7",
     "expo-module-scripts": "^4.1.7",
-    "react-native": "0.79.2"
+    "react": "19.0.0",
+    "react-native": "0.79.2",
+    "@types/react": "~19.0.10"
   },
   "peerDependencies": {
     "expo": "~53.0.7",
@@ -51,5 +49,14 @@
   "expo-module": {
     "androidPackage": "com.hecansoft.tools",
     "iosModuleName": "ExpoFrameToImageModule"
-  }
+  },
+  "files": [
+    "build",
+    "android",
+    "ios",
+    "src",
+    "plugin.js",
+    "expo-module.config.json",
+    "README.md"
+  ]
 }
